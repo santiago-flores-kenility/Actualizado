@@ -1,0 +1,7 @@
+const prompt = require("prompt-sync")({ sigint: true });
+
+
+let cajon = "remeras"
+console.log("guardaste " +cajon + " en el cajón de los pantalones")
+cajon = "pantalones"
+console.log("guardaste " +cajon + " en el cajón de los pantalones")

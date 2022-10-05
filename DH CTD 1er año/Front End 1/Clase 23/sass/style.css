@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav {
+  width: 35vw;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+body main section {
+  display: flex;
+}
+body main section .presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body main section .presentacion button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #03faee;
+}
+body main section img {
+  width: 50vw;
+}
+body main section .comoUsar {
+  margin: 10px;
+  background-color: #8b8b8b;
+}
+body main section .comoUsar span {
+  display: inline-block;
+  padding: 3vw;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: -5px -5px #92f7f2;
+  border-style: solid;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .redes {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+}
+body footer .redes img {
+  width: 4vw;
+  height: 4vw;
+  padding: 7px;
+  border-radius: 50%;
+  box-shadow: -5px -5px #92f7f2;
+}/*# sourceMappingURL=style.css.map */

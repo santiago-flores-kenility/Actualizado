@@ -1,0 +1,20 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;        
+    }
+
+
+h1{
+    background-color: rgb(31, 120, 161);
+}
+footer{
+    text-align: center;
+}

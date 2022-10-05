@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/* Estilos para el header*/
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+header section nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header section image {
+  padding: 60px 0px;
+}
+
+/* id ocultados*/
+
+#hamburguesa,
+#ocultado {
+  display: none;
+}
+
+/* selectores de etiqueta*/
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #232c50;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #323851;
+  padding: 10px 0px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+h4 {
+  margin-top: 70px;
+  padding-top: 35px;
+}
+
+q {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #b9b9c1;
+}
+
+ol li,
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+p,
+q {
+  padding: 35px 0px;
+}
+
+li article p {
+  font-weight: 500;
+  font-size: 16.3px;
+  color: #b3b2b7;
+}
+
+button {
+  background-color: #8b48bf;
+  border-color: #8b48bf;
+  border-width: 0px;
+  padding: 11px 22px;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+span {
+  color: #8c8c94;
+  padding: 10px 0px;
+}
+
+/*Selectores de clase*/
+.bienvenida,
+.caracteristicas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.bienvenida article,
+.caracteristicas section {
+  width: 550px;
+}
+
+.fraseBienvenida {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ventajas {
+  display: flex;
+  flex-direction: column;
+}
+
+.ventajas article p {
+  padding-left: 5rem;
+  color: #b3b2b7;
+}
+
+.ventaja1 h3::before {
+  content: "01 ";
+}
+
+.ventaja2 h3::before {
+  content: "02 ";
+}
+
+.ventaja3 h3::before {
+  content: "03 ";
+}
+
+.ventaja1 h3::before,
+.ventaja2 h3::before,
+.ventaja3 h3::before {
+  background-color: #8b48bf;
+  padding: 10px 25px;
+  margin-right: 15px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.comentarios {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 25px;
+}
+.comentarios section {
+  display: flex;
+  padding: 40px 0px;
+}
+
+.comentarios section article {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.espacio {
+  height: 72px;
+  width: 420px;
+  background-color: white;
+}
+
+.cara {
+  position: absolute;
+}
+
+.idea {
+  background-color: #8b48bf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Estilos en footer*/
+
+footer section {
+  background-color: #1e1e26;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+.idea h2 {
+  height: 230px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 600px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.idea button {
+  background-color: #ffffff;
+  color: #8b48bf;
+}
+
+.redes {
+  display: flex;
+}
+
+.pie {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mapa {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 0px;
+}
+
+.menusup nav ul li a {
+  text-decoration: none;
+}
+
+.enlaces li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 15px 0px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+input:hover {
+  background-color: #3cddf3;
+}
+
+.formu p {
+  font-size: 12.5px;
+  color: #8c8c94;
+  font-weight: bold;
+}
+
+/*Ajustes mobile*/
+
+@media (max-width: 480px) {
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  header section nav ul,
+  header section button,
+  #mostrado {
+    display: none;
+  }
+
+  #hamburguesa {
+    display: block;
+  }
+
+  .bienvenida {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .bienvenida article,
+  .caracteristicas section,
+  #graficas {
+    width: 450px;
+  }
+  .caracteristicas section p {
+    padding-left: 10px;
+  }
+  .fraseBienvenida {
+    align-items: center;
+  }
+
+  .caracteristicas {
+    flex-direction: column;
+  }
+  .ventajas article p {
+    padding-left: 0px;
+  }
+
+  .ventajas article {
+    padding-left: 15px;
+  }
+
+  .comentarios section article:nth-child(odd) {
+    display: none;
+  }
+  h3 {
+    background-color: #8b48bf4d;
+  }
+  .idea {
+    flex-direction: column;
+    align-items: center;
+  }
+  .idea h2 {
+    width: 430px;
+  }
+
+  .idea button {
+    margin-bottom: 15px;
+  }
+  footer section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #ocultado {
+    display: block;
+  }
+}

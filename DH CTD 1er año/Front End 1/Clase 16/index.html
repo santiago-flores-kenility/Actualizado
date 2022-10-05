@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section>20% de descuento en todos los productos!</section>
+      <section>Nombre Tienda</section>
+      <section>
+        <nav>
+          <ul>
+            <li>Contacto</li>
+            <li>Registrarme</li>
+            <li>Ingresar</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <form action="" method="post">
+        <fieldset>Añadí tu super!</fieldset>
+        <fieldset>
+          Agregá tu personaje favorito completando las opciones
+        </fieldset>
+        <fieldset>
+          <input type="text" id="nombre" required/>
+          <label for="nombre">*Nombre</label>
+          <select name="Especie" id="Especie" required></select>
+          <label for="Especie">*Especie</label>          
+          <input type="date" name="fecha" id="fecha" />
+          <label for="fecha">Fecha</label>
+          <input type="file" name="foto" id="foto" />
+          <label for="foto">Agregar foto</label>
+          <textarea name="descripcion" id="desc" cols="30" rows="10"></textarea>
+          <fieldset>
+            <legend>Poderes</legend>
+            <input type="checkbox" name="poderes" id="volar" value="Volar" />
+            <label for="volar">Volar</label>
+            <input type="checkbox" name="poderes" id="superinteligencia" value="SuperInteligencia"/>
+            <label for="superinteligencia">Superinteligencia</label>
+            <input type="checkbox" name="poderes" id="laser" value="Vista de rayo láser"/>
+            <label for="laser">Vista de rayo láser</label>
+            <input type="checkbox" name="poderes" id="bill" value="Billetera gorda"/>
+            <label for="bill">Billetera gorda</label>
+            </fieldset>
+          <fieldset>
+            <legend>Tipo de personaje</legend>
+            <input type="radio" name="tipo" id="heroe" value="heroe">
+            <label for="heroe" >Héroe/Heroína</label>
+            <input type="radio" name="tipo" id="villano"value="villano">
+            <label for="villano" name="tipo">Villano/Villana</label>            
+          </fieldset>
+          <button type="submit">Añadir</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>Todos los derechos reservados Front End 1</footer>
+</body>
+</html>

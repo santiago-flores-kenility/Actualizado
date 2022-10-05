@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 10px;
+  width: 400px;
+  justify-content: space-between;
+}
+.Menu {
+    width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+main{
+    display:flex;
+    margin: 10px;
+    
+}
+
+.top5{
+    display: flex
+}
+footer{
+    height: 100px;
+    background-color: black;
+}

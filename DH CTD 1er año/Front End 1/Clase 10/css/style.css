@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header section p {
+  background-color: #1cd1b0;
+  padding: 10px;
+}
+header section h1 {
+  background-color: #00669f;
+  padding: 10px;
+}
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+main section article {
+  background-color: #f3f3f3;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 5px;
+  position: relative;
+  align-items: center;
+}
+main section article section{
+  position: absolute;
+  top:60px;
+}
+main section article section div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  font-size: small;
+}
+
+footer {
+  background-color: #00669f;
+  padding: 10px;
+}
+
+.cara {
+  border-radius: 60px;
+}
+
+main section article div button {
+  background-color: #00669f;
+  padding: 10px;
+}

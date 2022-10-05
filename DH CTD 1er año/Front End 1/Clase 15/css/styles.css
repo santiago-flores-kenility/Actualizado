@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.extremo{
+    background-color: slategray;
+    padding: 10px;
+}
+.cuerpo_extremo{
+    background-color: #F0A83E;
+    color: white;
+}
+header section div{
+    display: flex;
+}
+h1 span{
+    color:red
+}
+.Bienvenida{
+    background-image: url("../img/Fondo.png");
+    width: 100%;
+    height: 300px;
+}

@@ -1,0 +1,24 @@
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+header{
+    font-family: 'Playfair Display', serif;
+    background-color: aqua;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;        
+    }
+
+
+h1{
+    background-color: rgb(31, 120, 161);
+}
+footer{
+    background-color: chocolate;
+    text-align: center;
+}

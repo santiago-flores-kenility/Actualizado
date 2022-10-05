@@ -1,0 +1,4 @@
+1 - La carpeta no se carga
+2 - No se guarda nada porque no hubo git add
+3 - No, no es descriptivo
+4 - 

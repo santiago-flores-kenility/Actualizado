@@ -1,0 +1,17 @@
+const prompt = require("prompt-sync")({ sigint: true });
+let actividades = prompt("Que haces antes de clase?:")
+console.log("al que madruga y " + actividades + " Dios le ayuda")
+
+let bebida = ["cafe","Te","Naranja"]
+
+console.log("Con qué desayunas?: "+bebida)
+
+let bebidaElegida = prompt("Elige una de las anteriores: ")
+console.log("Usted eligió: " + bebidaElegida)
+let horadeldesayuno = 8 
+console.log(horadeldesayuno)
+console.log(horadeldesayuno +":00 am")
+
+let arepas = 2
+console.log("Desayuné " + arepas + " arepas")
+let hambre 

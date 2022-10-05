@@ -1,0 +1,69 @@
+@import "_colores.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  img {
+    border-radius: 50%;
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  #busqueda{
+    display: none;
+  }
+}
+main {
+  .historias {
+    background-color: $color_secundario;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "area1 area2 area3 area4 area5 area6 area7 ";
+
+    .grid-item5,
+    .grid-item6,
+    .grid-item7 {
+      display: none;
+    }
+  }
+  principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+}
+
+#persona{
+  display: flex;
+  justify-content: space-between;
+  div{
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+#img_principal {
+    border-radius: 0%;
+
+
+}
+.total_comentarios {
+  color: $color_secundario;
+}
+.nombre_usuario {
+  font-weight: bold;
+}
+footer {
+  background-color: $color_footer;
+  color: white;
+}
