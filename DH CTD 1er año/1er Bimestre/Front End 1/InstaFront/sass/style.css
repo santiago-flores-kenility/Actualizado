@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+body img {
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #busqueda {
+  display: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+}
+main .screen {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+main .historias {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "area1 area2 area3 area4 area5 area6 area7 ";
+}
+main .historias .grid-item5,
+main .historias .grid-item6,
+main .historias .grid-item7 {
+  display: none;
+}
+main .principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main .hamburguesa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  background: transparent;
+  gap: 0.65rem;
+}
+main .hamburguesa div {
+  background: black;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.5s;
+  transform-origin: left;
+}
+main .hamburguesa:hover div:first-child {
+  transform: rotate(45deg);
+}
+main .hamburguesa:hover div:nth-child(2) {
+  opacity: 0;
+}
+main .hamburguesa:hover div:last-child {
+  transform: rotate(-45deg);
+}
+main .perfil {
+  display: flex;
+  flex-direction: column;
+}
+main .barra_costado {
+  display: none;
+}
+main .gestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .sugerencias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .col_sec {
+  color: #808080;
+}
+main .flex {
+  display: flex;
+}
+main .between {
+  justify-content: space-between;
+}
+main .center {
+  align-items: center;
+}
+main .column {
+  flex-direction: column;
+}
+
+#persona {
+  display: flex;
+  justify-content: space-between;
+}
+#persona div {
+  display: flex;
+  align-items: center;
+}
+
+#img_principal {
+  border-radius: 0%;
+}
+
+.total_comentarios {
+  color: #808080;
+}
+
+.nombre_usuario {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
