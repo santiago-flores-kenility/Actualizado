@@ -1,0 +1,20 @@
+        Integer numero =9;
+        System.out.println("Los primeros "+ numero+ " números primos son: "+listaPrimos(numero));
+// Esas 2 líneas van en el Main
+
+
+    public static String listaPrimos(Integer num){
+        String lista ="";
+        Integer contador=0;
+        int numeroEvaluado = 2;
+        boolean primo;
+        while (contador<num){
+            primo = true;
+            for (int i = 2; i < numeroEvaluado; i++) if (numeroEvaluado % i == 0) primo=false;
+            if (primo) {
+                lista = lista + ", " + numeroEvaluado;
+                contador++;}
+            numeroEvaluado++;
+        }
+        return lista;
+    }
