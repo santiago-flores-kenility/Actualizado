@@ -59,7 +59,7 @@ function init(){
   }
   suma.onclick = function(e){
       operandoa = resultado.textContent;
-	//   --operandoa;
+      --operandoa;
       operacion = "+";
       limpiar();
   }

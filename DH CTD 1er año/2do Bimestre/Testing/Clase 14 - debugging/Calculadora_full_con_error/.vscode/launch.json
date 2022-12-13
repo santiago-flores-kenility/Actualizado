@@ -4,14 +4,12 @@
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar Chrome para localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
-            "file": "G:/Mochila/DH CTD 1er año/2do Bimestre/Testing/Clase 14 - debugging/Calculadora_full_con_error/calculadora.html"
+            "url": "G:/Mochila/DH CTD 1er año/2do Bimestre/Testing/Clase 14 - debugging/Calculadora_full_con_error/calculadora.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

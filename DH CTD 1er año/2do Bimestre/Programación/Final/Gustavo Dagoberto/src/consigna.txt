@@ -1,0 +1,21 @@
+
+Se necesita desarrollar un sistema que permita calcular los precios de los servicios brindados por una empresa de
+electrodomésticos y tecnología de la cual solo necesitamos saber su razón social. Existen dos tipos de servicios,
+los simples y los combos de servicios.
+Ambos tipos de servicios poseen un nombre y una descripción. Los servicios simples además tienen un precio base
+y se sabe si incluye colocación o no; y los combos siempre poseen un descuento (que es un porcentaje entero) y
+agrupan a dos o más servicios.
+
+Se necesitará desarrollar las siguientes funcionalidades:
+Poder calcular el precio de un servicio simple que incrementa un 10% si incluye colocación.
+Poder calcular el precio de un combo de servicios que consiste en la sumatoria de todas los precios de los
+servicios que este puede contener y la aplicación del descuento pertinente.
+La empresa deberá poder agregar servicios disponibles y mostrarlos indicando el nombre y precio de cada uno.
+
+Reproducir la siguiente situación en una clase Main que contenga el método main y mostrar los siguientes
+servicios y precios de la empresa:
+Servicio simple: “Venta Aire Acondicionado” que tiene un precio de 65.000 pesos y no incluye colocación.
+Servicio simple: “Colocacion Aire Acondicionado” que tiene un precio base de 10.000 pesos e incluye colocación,
+por lo tanto el precio final es de 11.000.
+Combo de servicios: “Full Aire Acondicionado” que contiene los dos servicios simples anteriores, este combo
+tiene un descuento del 10%, es decir, un precio final de 68.400 pesos.
